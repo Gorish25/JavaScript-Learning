@@ -1,0 +1,5 @@
+What are conditional statements?
+conditional statements (control statements) used to change the flow of the
+program's execution.
+
+if, if-else, if-elseif

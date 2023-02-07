@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="res"></h1>
+    <button onclick="pop()">POP</button>
+    <button onclick="push()">PUSH</button>
+    <button onclick="slice()">Slice</button>
+    <button onclick="reverse()">Reverse</button>
+    <button onclick="shift()">Shift</button>
+
+</body>
+
+<script type="text/javascript">
+
+var fruits = ['Mango','Apple','Pineapple','Banana'];
+var demo = fruits;
+document.getElementById('res').innerHTML = demo;
+
+function pop() {
+    demo.pop();
+    document.getElementById('res').innerHTML = demo;
+}
+
+function push() {
+    var fru = prompt("Enter the fruit to insert");
+    demo.push(fru);
+    document.getElementById('res').innerHTML = demo;
+}
+
+function slice(){
+    var val = prompt("Enter the length from origin to delete");
+    var x = demo.slice(val);
+    document.getElementById('res').innerHTML = x;
+}
+
+function reverse(){
+    demo.reverse();
+    document.getElementById('res').innerHTML = demo;
+}
+
+function shift(){
+    var x = demo.shift();
+    document.getElementById('res').innerHTML = x;
+}
+
+</script>
+</html>

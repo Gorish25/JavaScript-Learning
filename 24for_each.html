@@ -1,0 +1,76 @@
+<!-- A forEach loop (method) is used to get data from JS array or object -->
+<!-- The method calls a function once for each element in an array, in order -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script type="text/javascript">
+
+    var cars = ['car1','car2','car3','car4','car5'];
+
+
+    // 1st way
+    cars.forEach(car);
+
+    function car(item){
+        document.write(item+" ");
+    }
+
+
+    document.write("<br />");
+    document.write("<br />");
+
+    // 2nd way
+    cars.forEach(car2);
+
+    function car2(item, index){
+        document.write(index+" "+item+" "+"<br />");
+    }
+
+
+    document.write("<br />");
+
+
+    // 3rd way
+    // adding some additional data 
+    cars.forEach(car3);
+
+    function car3(item, index, arr){
+        arr[index] = item+'0';
+    }
+
+    cars.forEach(after);
+    function after(item, index){
+        document.write(index+" => "+item+" "+"<br />")
+    }
+
+
+</script>
+</html>
+
+<!-- 
+    syntex of forEach loop
+
+    var cars = ['Car1','Car2','Car3']
+
+    cars.forEach(myfunction);
+
+    function myfunction(item, index, array){
+        //both of the function
+    }
+
+
+    // here
+    item - (here 'Car1') required parameter
+    index - (here 0 for 'Car1') optional
+    array - (here cars) optional
+ -->

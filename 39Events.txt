@@ -1,0 +1,6 @@
+Events:
+In Programming, event is an occurrence of any action.
+
+When we use JavaScript in HTML pages, JavaScript can "react" with events.
+
+E.g. When user click the mouse button, or press any key on the keyboard.

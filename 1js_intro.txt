@@ -1,0 +1,42 @@
+1. JavaScript is an interpreted, client-side, event-based, object-oriented 
+scripting language.
+
+2. Invented in 1995 at Netscape Corporation (LiveScript).
+
+3. JavaScript programs are run by an interpreter built into user's web browser.
+
+4. It is a case-sensitive language.
+
+5. JavaScript is not Java.
+
+
+What can JavaScript do:
+a. JavaScript can dynamically modify an HTML page.
+b. JavaScript can validate user input JavaScript can validate user input.
+c. JavaScript can be used to create cookies.
+d. JavaScript is a full-featured programming language.
+e. JavaScript user interaction does not require any communication with the server.
+
+
+What makes JavaScript unique?
+a. Support by all major browsers and enabled by default.
+b. Complex things are done simply.
+c. Full integration with HTML and CSS.
+
+
+JavaScript Frameworks and Libraries:
+1. Angular
+2. React
+3. jQuery
+4. Vue.js
+5. Ext.js
+6. Ember.js
+7. Node.js
+8. Polymer
+9. Aurelia
+10. Backbone.js
+
+
+we can use JavaScript in HTML code by 2 ways.
+1. Internal JavaScript 
+2. External JavaScript

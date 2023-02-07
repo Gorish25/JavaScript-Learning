@@ -1,0 +1,11 @@
+What is an Operator?
+An operator is a symbol that tell the compiler which arithemetic or logical
+operation to be performed between the respective operands.
+
+
+Types of Operator
+1. Arithmetic Operators (+,-,*,/,%,++,--)  
+2. Logical Operators (&&, || )
+3. Ternary Operator ( condition ? true : false)
+4. Assignment Operators (=, +=, -=, *=, /=, %= )
+5. Comparison Operators (==, !=, >, <, >=, <=)

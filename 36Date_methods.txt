@@ -1,0 +1,12 @@
+List of Date Methods:
+
+1.  Date():              => To get the current date and time details according to the browser
+2.  getFullYear():       => Get the year as a 4 digit number (yyyy).
+3.  getMonth():          => Get the month as a number (0-11).
+4.  getDate():           => Get the day as a number (1-31)
+5.  getHours():          => Get the hour (0-23)
+6.  getMinutes():        => Get the minute (0-59)
+7.  getSeconds():        => Get the second (0-59)
+8.  getMilliseconds():   => Get the millisecond (0-999)
+9.  getDay():            => Get the weekday as a number (0-6)
+10. getTime():           => Get the time (milliseconds since Jan 1, 1970)

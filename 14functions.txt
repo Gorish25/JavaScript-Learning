@@ -1,0 +1,8 @@
+What are functions?
+Functions are group of code or program which is used more often.
+It leads programming to code reusability and clean code.
+
+
+Types of functions
+1. Pre defined:- Such functions are defined at the time of making of any language.
+2. User defined:- Such functions are defined by users according to their needs.

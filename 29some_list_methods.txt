@@ -1,0 +1,16 @@
+Important Methods of Array
+
+
+
+List Methods:
+
+1. valueOf()  => To print the data of array.
+2. isArray()  => Check if the variable is an array or not?
+3. concat()   => Join several arrays into one.
+4. indexOf()  => Returns the primitive value of the specified object.
+5. join()     => Combine elements of an array into a single string and return the string.
+6. pop()      => Removes the last element of an array
+7. push()     => Add a new element at the end of the array 
+8. reverse()  => Sort elements in descending order
+9. shift()    => Remove the first element of an array
+10. slice()   => Pulls a copy of a portion of an array into a new array

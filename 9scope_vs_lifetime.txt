@@ -1,0 +1,8 @@
+Scope of a Variable:
+1. Variables declared within a function are local to that function.
+2. Variables declared outside of any function are global variables.
+
+
+Life time of a variable:
+1. Local variables's life time is within the block of its declaration.
+2. Global variables's life time is throughout the program.

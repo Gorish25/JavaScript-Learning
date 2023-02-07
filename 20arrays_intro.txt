@@ -1,0 +1,26 @@
+What is an Array?
+Array is a group of continuous memory locations.
+It is used to store multiple values into a single variable.
+
+there are 2 methods to declare arrays in JavaScript:
+1. var house=[];
+
+// initializing while declaring
+var house = ["1BHK","2BHK","3BHK","4BHK","5BHK"];
+
+// initializing after declaring
+house[0] = "1BHK";
+house[1] = "2BHK";
+house[2] = "3BHK";
+house[3] = "4BHK";
+
+
+
+
+2. var house= new Array();
+
+// creates an array having elements 10, 20, 30, 40, 50
+var house = new Array(10, 20, 30, 40, 50);
+
+// Storing number strings in an Array
+var house = ["1BHK",30000,"2BHK",40000,"Sales"];

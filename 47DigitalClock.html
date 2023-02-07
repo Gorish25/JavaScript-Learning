@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="showTime()">
+    <h1>
+
+    </h1>
+</body>
+<script type="text/javascript">
+    function showTime(){
+    var d = new Date();
+
+    var hours = d.getHours();
+    var minutes = d.getMinutes();
+    var seconds = d.getSeconds();   
+    var session = "AM";
+
+
+    // for 12 hours
+    if (hours >12){
+        hours = hours - 12;
+    }
+
+    // for AM, PM
+    if (hours>=12){
+        session = "PM"
+    }
+
+
+    // for 01, 02, etc
+    hours = hours<10 ? "0"+hours : hours;
+    minutes = minutes < 10 ? "0"+minutes : minutes;
+    seconds = seconds < 10 ? "0"+seconds : seconds;
+
+    var time = hours+" : " + minutes+" : " + seconds+ " "+session;
+    document.getElementsByTagName('h1')[0].innerHTML = time;
+    
+    
+    // for looping 
+    setTimeout(showTime,1000);
+
+    }
+</script>
+</html>

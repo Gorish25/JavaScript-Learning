@@ -1,0 +1,10 @@
+What is Variable?
+Variables are containers which hold reusable data.
+It is the basic unit of storage in a program.
+The value stored in a variable can be changed during program execution.
+
+
+How to declare Variable?
+
+
+Scope of Life time of Variable?

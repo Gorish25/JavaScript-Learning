@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="res">
+
+    </h1>
+    <button onclick="getDate()">Get Date</button>
+    <button onclick="getYear()">Get Year</button>
+    <button onclick="getMonth()">Get Month</button>
+    <button onclick="getHour()">Get Hour</button>
+    <button onclick="getDate()">Get Date</button>
+    <button onclick="getMinutes()">Get Minute</button>
+    <button onclick="getSeconds()">Get Seconds</button>
+    <button onclick="getMilliseconds()">Get Milliseconds</button>
+    <button onclick="getDay()">Get Day</button>
+    <button onclick="getTime()">Get Time</button>
+</body>
+<script type="text/javascript">
+    var date = new Date();
+
+    // full => date time year etc
+    function getDate() {
+        document.getElementById("res").innerText = date;
+    }
+
+    // year
+    function getYear() {
+        document.getElementById("res").innerText = date.getFullYear();
+    }
+
+    // Month
+    function getMonth() {
+        var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+        document.getElementById("res").innerText = months[date.getMonth()];
+    }
+
+    // Hour
+    function getHour() {
+        document.getElementById("res").innerText = date.getHours();
+    }
+
+    // Date
+    function getDate() {
+        document.getElementById("res").innerText = date.getDate();
+    }
+
+    // Minutes
+    function getMinutes() {
+        document.getElementById("res").innerText = date.getMinutes();
+    }
+
+    // Seconds
+    function getSeconds() {
+        document.getElementById("res").innerText = date.getSeconds();
+    }
+
+    // Milliseconds
+    function getMilliseconds() {
+        document.getElementById("res").innerText = date.getMilliseconds();
+    }
+
+    // Day
+    function getDay() {
+        var Days = ["Sunday",'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+        document.getElementById("res").innerText = Days[date.getDay()];
+    }
+
+    // Time since Jan 1, 1970
+    function getTime(){
+        document.getElementById("res").innerText = date.getTime();
+    }
+
+</script>
+</html>
